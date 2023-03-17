@@ -27,8 +27,9 @@ almacena en las variables apuntadas por max y min.
 */
 void arrayMaxMin(int *a, int n, int *max, int *min) 
 {
+  int i = 0;
   int menorTmp = a[i];
-  for(int i = 0; i<n-1; i++)
+  for(i = 0; i<n-1; i++)
     {
       if (a[i+1]<menorTmp)
       {

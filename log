@@ -19,3 +19,16 @@ exercises.c:47:22: error: expected ‘;’ before ‘}’ token
       |     ~                 
 Compilation failed
 021287f
+Fri 17 Mar 2023 11:50:21 AM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:48:22: error: expected ‘;’ before ‘}’ token
+   48 |       *max = mayorTmp
+      |                      ^
+      |                      ;
+   49 |     }
+      |     ~                 
+Compilation failed
+aaffb15
