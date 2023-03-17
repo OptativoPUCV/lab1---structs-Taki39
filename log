@@ -194,3 +194,9 @@ test.c:251:5: error: ‘main’ defined but not used [-Werror=unused-function]
 cc1: all warnings being treated as errors
 Compilation failed
 fc09269
+Fri 17 Mar 2023 12:30:27 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+973c94e
