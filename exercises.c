@@ -93,7 +93,7 @@ Vector * crearVector(int n)
   Vector *vctr = (Vector*) malloc (sizeof(Vector));
   if (vctr == NULL) return NULL;
 
-  vctr->capacidad = (int*) malloc (sizeof(int));
+  vctr->datos = (int*) malloc (sizeof(int));
   
   vctr->capacidad = n;
 
