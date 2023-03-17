@@ -45,7 +45,7 @@ void arrayMaxMin(int *a, int n, int *max, int *min)
       {
         mayorTmp = a[i+1];
       }
-      *max = mayorTmp
+      *max = mayorTmp;
     }
     
 }
