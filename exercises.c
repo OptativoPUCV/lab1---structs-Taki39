@@ -125,8 +125,14 @@ Ejercicio 7.
 Función que suma los vectores `a` y `b` y 
 actualiza el vector `c` con el resultado de la suma.
 */
-void sumaV(Vector * a, Vector * b, Vector * c) {
-
+void sumaV(Vector * a, Vector * b, Vector * c) 
+{
+   int *vecA = a->datos;
+   int *vecB = b->datos;
+   int *vecC = vecA
+  
+  
+  
 }
 
 /*

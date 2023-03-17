@@ -145,3 +145,31 @@ Fri 17 Mar 2023 12:25:42 PM UTC:
  tests:  6|2
 total_score: 50/70
 556619d
+Fri 17 Mar 2023 12:29:49 PM UTC: 
+ exercises.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:136:1: error: expected ‘,’ or ‘;’ before ‘}’ token
+  136 | }
+      | ^
+test.c:251:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  251 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:271:1: error: expected declaration or statement at end of input
+  271 | }
+      | ^
+In file included from test.c:5:
+exercises.c:132:9: error: unused variable ‘vecC’ [-Werror=unused-variable]
+  132 |    int *vecC = vecA
+      |         ^~~~
+exercises.c:131:9: error: unused variable ‘vecB’ [-Werror=unused-variable]
+  131 |    int *vecB = b->datos;
+      |         ^~~~
+At top level:
+test.c:251:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  251 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1b4f86b
