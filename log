@@ -121,3 +121,9 @@ exercises.c:108:15: error: invalid type argument of unary ‘*’ (have ‘int�
       |               ^~~~~~
 Compilation failed
 8b8ec6a
+Fri 17 Mar 2023 12:21:51 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+88450a4
