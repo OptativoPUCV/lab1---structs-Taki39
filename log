@@ -78,3 +78,14 @@ Fri 17 Mar 2023 12:18:02 PM UTC:
  tests:  4|3
 total_score: 40/70
 29044fa
+Fri 17 Mar 2023 12:19:37 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:108:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
+  108 |   v.datos[i]=valor;
+      |    ^
+      |    ->
+Compilation failed
+c407a9f
