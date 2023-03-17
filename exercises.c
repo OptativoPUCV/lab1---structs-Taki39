@@ -12,8 +12,11 @@ Ejercicio 1.
 Programe la función void swap(int *a, int *b), la cual
 intercambia los valores de las variables apuntadas por a y b.
 */
-void swap(int *a, int *b) {
-
+void swap(int *a, int *b) 
+{
+  int tmp = *a;
+  *a = *b;
+  *b = tmp;
 }
 
 /*
@@ -22,7 +25,27 @@ Programe la función void arrayMaxMin(int *a, int n, int *max, int *min),
 la cual encuentra el máximo y el mínimo valor del arreglo a y los
 almacena en las variables apuntadas por max y min.
 */
-void arrayMaxMin(int *a, int n, int *max, int *min) {
+void arrayMaxMin(int *a, int n, int *max, int *min) 
+{
+  int menorTmp = a[i];
+  for(int i = 0; i<n-1; i++)
+    {
+      if (a[i+1]<menorTmp)
+      {
+        menorTmp = a[i+1];
+      }
+      *min = menorTmp;
+    }
+
+  int mayorTmp = a[i];
+  for(int i = 0; i<n-1; i++)
+    {
+      if (a[i+1]<mayorTmp)
+      {
+        mayorTmp = a[i+1];
+      }
+      *max = mayorTmp
+    }
     
 }
 
@@ -44,9 +67,11 @@ typedef struct {
 Persona* crearPersona(char nombre[], char rut[], int edad) {
    Persona * p = (Persona *) malloc(sizeof(Persona));
    //asignar valores de entrada a los campos de p
-
-
-   return p;
+  strcpy(p->nombre, nombre);
+  strcpy(p->rut, rut);
+  p->edad = edad;
+  
+  return p;
 }
 
 /*
@@ -62,7 +87,9 @@ typedef struct {
    int capacidad; // capacidad del arreglo
 } Vector;
 
-Vector * crearVector(int n) {
+Vector * crearVector(int n) 
+{
+  
    return NULL;
 }
 
@@ -101,3 +128,5 @@ sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
 
 }
+
+

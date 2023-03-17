@@ -2,3 +2,20 @@ Fri 17 Mar 2023 11:49:12 AM UTC:
  tests:  0|7
 total_score: 0/70
 9378b78
+Fri 17 Mar 2023 11:49:34 AM UTC: 
+ exercises.c | 37 ++++++++++++++++++++++++++++++++-----
+ 1 file changed, 32 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:30:20: error: ‘i’ undeclared (first use in this function)
+   30 |   int menorTmp = a[i];
+      |                    ^
+exercises.c:30:20: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:47:22: error: expected ‘;’ before ‘}’ token
+   47 |       *max = mayorTmp
+      |                      ^
+      |                      ;
+   48 |     }
+      |     ~                 
+Compilation failed
+021287f
