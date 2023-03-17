@@ -89,3 +89,14 @@ exercises.c:108:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
       |    ->
 Compilation failed
 c407a9f
+Fri 17 Mar 2023 12:19:43 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:108:5: error: ‘v’ is a pointer; did you mean to use ‘->’?
+  108 |   *v.datos[i]=valor;
+      |     ^
+      |     ->
+Compilation failed
+fd759bb
