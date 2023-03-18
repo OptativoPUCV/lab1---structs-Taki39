@@ -220,3 +220,13 @@ exercises.c:133:9: error: invalid type argument of unary ‘*’ (have ‘int’
       |         ^~~~~
 Compilation failed
 99ca54c
+Sat 18 Mar 2023 01:28:45 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:15: error: invalid type argument of unary ‘*’ (have ‘int’)
+  133 |    c->datos = *vecC;
+      |               ^~~~~
+Compilation failed
+656af16

@@ -130,7 +130,7 @@ void sumaV(Vector * a, Vector * b, Vector * c)
    int *vecA = a->datos;
    int *vecB = b->datos;
    int vecC = *vecA + *vecB;
-   *c = *vecC;
+   c->datos = *vecC;
   
   
   
