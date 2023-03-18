@@ -400,3 +400,9 @@ exercises.c:132:19: error: invalid operands to binary + (have ‘int *’ and �
       |                   ^
 Compilation failed
 c997ac1
+Sat 18 Mar 2023 01:54:06 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 40/70
+b6a0e33
