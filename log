@@ -200,3 +200,13 @@ Fri 17 Mar 2023 12:30:27 PM UTC:
  tests:  6|2
 total_score: 50/70
 973c94e
+Sat 18 Mar 2023 01:28:05 AM UTC: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:9: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+  133 |    *c = vecC;
+      |         ^~~~
+Compilation failed
+6f5b639
