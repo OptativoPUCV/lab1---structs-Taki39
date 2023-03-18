@@ -301,3 +301,14 @@ exercises.c:136:12: error: invalid operands to binary + (have ‘int *’ and �
       |                int *
 Compilation failed
 f64c7e2
+Sat 18 Mar 2023 01:33:08 AM UTC: 
+ exercises.c | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  133 |    c->datos = vecC;
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+b7c3525
