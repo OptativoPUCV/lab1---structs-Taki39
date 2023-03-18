@@ -312,3 +312,13 @@ exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointe
 cc1: all warnings being treated as errors
 Compilation failed
 b7c3525
+Sat 18 Mar 2023 01:33:28 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:132:21: error: invalid operands to binary + (have ‘int *’ and ‘int *’)
+  132 |    int *vecC = vecA + vecB;
+      |                     ^
+Compilation failed
+724bbd6
