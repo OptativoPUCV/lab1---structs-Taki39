@@ -128,6 +128,7 @@ actualiza el vector `c` con el resultado de la suma.
 void sumaV(Vector * a, Vector * b, Vector * c) 
 {
   Vector suma;
+  suma.datos = 0;
    for (int i = 0; i != '\0'; i++)
      {
        suma.datos[i] = a->datos[i] + b->datos[i];
