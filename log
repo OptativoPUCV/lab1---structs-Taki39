@@ -440,3 +440,17 @@ Sat 18 Mar 2023 02:05:31 AM UTC:
  tests:  6|2
 total_score: 50/70
 e2062b1
+Sat 18 Mar 2023 02:12:18 AM UTC: 
+ exercises.c | 13 ++++++-------
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+In file included from test.c:5:
+test.c: In function ‘sumaV’:
+exercises.c:135:18: error: ‘suma.datos’ is used uninitialized [-Werror=uninitialized]
+  135 |   c->datos = suma.datos;
+      |              ~~~~^~~~~~
+exercises.c:130:10: note: ‘suma’ declared here
+  130 |   Vector suma;
+      |          ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+03371ba

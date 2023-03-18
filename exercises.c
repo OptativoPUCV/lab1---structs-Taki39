@@ -127,13 +127,12 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) 
 {
-   int *vecA = a->datos;
-   int *vecB = b->datos;
-   int *suma = *vecA + vecB;
-   c->datos = suma;
-  
-  
-  
+  Vector suma;
+   for (int i = 0; i != '\0'; i++)
+     {
+       suma.datos[i] = a->datos[i] + b->datos[i];
+     }
+  c->datos = suma.datos;
 }
 
 /*
