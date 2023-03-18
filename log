@@ -379,3 +379,14 @@ Sat 18 Mar 2023 01:50:59 AM UTC:
  tests:  6|2
 total_score: 50/70
 4e6e40d
+Sat 18 Mar 2023 01:51:39 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  133 |    c->datos = suma;
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+cced77b
