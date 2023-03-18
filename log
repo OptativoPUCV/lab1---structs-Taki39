@@ -328,3 +328,20 @@ Sat 18 Mar 2023 01:34:34 AM UTC:
  tests:  6|2
 total_score: 50/70
 4085e84
+Sat 18 Mar 2023 01:35:18 AM UTC: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:130:15: error: initialization of ‘int’ from ‘int *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  130 |    int vecA = a->datos;
+      |               ^
+exercises.c:131:15: error: initialization of ‘int’ from ‘int *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  131 |    int vecB = b->datos;
+      |               ^
+exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  133 |    c->datos = vecC;
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+42caf81
