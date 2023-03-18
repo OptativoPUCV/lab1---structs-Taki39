@@ -230,3 +230,14 @@ exercises.c:133:15: error: invalid type argument of unary ‘*’ (have ‘int�
       |               ^~~~~
 Compilation failed
 656af16
+Sat 18 Mar 2023 01:28:51 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  133 |    c->datos = vecC;
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+d465866
