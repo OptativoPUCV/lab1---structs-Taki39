@@ -95,9 +95,6 @@ Vector * crearVector(int n)
   if (vctr == NULL) return NULL;
   
   vctr->capacidad = n;
-  vctr->datos = 0;
-  
-  
 
   return vctr;
 }
