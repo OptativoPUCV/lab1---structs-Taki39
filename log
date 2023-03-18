@@ -406,3 +406,14 @@ Sat 18 Mar 2023 01:54:06 AM UTC:
  tests:  5|3
 total_score: 40/70
 b6a0e33
+Sat 18 Mar 2023 01:54:48 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:132:16: error: initialization of ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  132 |    int *suma = *aa + *bb;
+      |                ^
+cc1: all warnings being treated as errors
+Compilation failed
+9021f16
