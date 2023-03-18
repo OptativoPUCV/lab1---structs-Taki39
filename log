@@ -362,3 +362,14 @@ Sat 18 Mar 2023 01:44:29 AM UTC:
  tests:  4|4
 total_score: 30/70
 77f6fad
+Sat 18 Mar 2023 01:49:45 AM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:132:7: error: unused variable ‘suma’ [-Werror=unused-variable]
+  132 |   int suma = *aa + *bb;
+      |       ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e0c46bc
