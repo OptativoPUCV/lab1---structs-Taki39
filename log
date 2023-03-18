@@ -345,3 +345,9 @@ exercises.c:133:13: error: assignment to ‘int *’ from ‘int’ makes pointe
 cc1: all warnings being treated as errors
 Compilation failed
 42caf81
+Sat 18 Mar 2023 01:41:33 AM UTC: 
+ exercises.c | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+ tests:  5|3
+total_score: 40/70
+1ab8680

@@ -127,10 +127,7 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) 
 {
-   int vecA = a->datos;
-   int vecB = b->datos;
-   int vecC = vecA + vecB;
-   c->datos = vecC;  
+   
   
 }
 
@@ -139,7 +136,9 @@ Ejercicio 8.
 Use las operaciones implementadas de vectores para 
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
-void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
+void sumaV2(int a1, int a2, int b1, int b2, Vector *c)
+{
+  
 
 }
 
